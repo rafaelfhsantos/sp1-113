@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(180deg, #a8c0ff, #3f2b96, #c83d38);
+    height: 100vh;
+}
+
+h1, p, button{
+    font-family: 'Noto Sans', sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+
+button{
+    background-color: #e75170;
+    border: none;
+    margin: 1% 0 0 44%;
+    padding: 0.3% 2% 0.3% 2%;
+}
+
+.principal{
+    display: flex;
+    width: 30vh;
+    height: 30vh;
+    border: 1px solid #FFF;
+    flex-wrap: wrap;
+    margin-left: 40vh;
+}
+
+.pos{
+    width: 9.57vh;
+    height: 9.6vh;
+    display: flex;
+    border: 2px solid #FFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.pos:hover{
+    background-color: #c83d38;
+}
